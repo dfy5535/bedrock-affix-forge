@@ -80,6 +80,12 @@
 
 ---
 
+## 兼容性说明
+
+逐项说明「每个功能依赖什么 API、对应哪个最低版本、能不能降、为什么」，以及真机验证证据：
+
+👉 **[COMPATIBILITY.md](./COMPATIBILITY.md)**
+
 ## 已知限制
 
 - 最低需要 Minecraft Bedrock **1.26.20**（脚本 API 2.7.0 / server-ui 2.0.0）。
