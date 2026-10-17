@@ -1,0 +1,40 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Affix Forge · Third-party Compatible Resources (EN)",
+    "description": "Affix Forge — affix text, particles and loot display. Third-party compatible edition. Resource Pack.",
+    "uuid": "03991ccb-c4fc-4279-9036-e40ead70a7f8",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      26,
+      20
+    ]
+  },
+  "modules": [
+    {
+      "description": "Affix Forge resources (textures / text)",
+      "type": "resources",
+      "uuid": "ccfa0fc0-c768-43e8-b055-a49923eb37b5",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "33947772-5f62-4e1f-90f2-63af20f6c861",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ]
+}

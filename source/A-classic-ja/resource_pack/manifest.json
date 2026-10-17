@@ -1,0 +1,40 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "アフィックスフォージ A · クラシック版 RP",
+    "description": "『アフィックスフォージ』ランダム装備 / プラス・マイナスアフィックス —— クラシック版リソースパック",
+    "uuid": "ce957810-c0df-4dc0-8913-075c77cbe05a",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      26,
+      20
+    ]
+  },
+  "modules": [
+    {
+      "description": "Affix Forge リソース（テクスチャ / テキスト）",
+      "type": "resources",
+      "uuid": "e4d7fb26-9190-4b35-8637-7b86f1d05f30",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "820af622-4f67-463b-8f7b-b838eb71b555",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ]
+}

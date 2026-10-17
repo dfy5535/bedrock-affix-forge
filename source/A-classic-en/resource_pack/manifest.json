@@ -1,0 +1,40 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Affix Forge · Classic Resources (EN)",
+    "description": "Affix Forge — affix text, particles and loot display. Classic edition. Resource Pack.",
+    "uuid": "d33c4eeb-e1ca-41e0-9192-0f772f911d68",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      26,
+      20
+    ]
+  },
+  "modules": [
+    {
+      "description": "Affix Forge resources (textures / text)",
+      "type": "resources",
+      "uuid": "decf25d5-9236-41a3-9806-943450e6dc50",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "4ba26d89-e228-49db-8dba-265c9e568810",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ]
+}

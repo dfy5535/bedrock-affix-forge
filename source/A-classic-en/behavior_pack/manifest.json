@@ -1,0 +1,60 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Affix Forge · Classic (EN)",
+    "description": "Affix Forge — random affixes for vanilla equipment. Classic edition (third-party modded weapons are NOT taken over). Behavior Pack.",
+    "uuid": "4ba26d89-e228-49db-8dba-265c9e568810",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      26,
+      20
+    ]
+  },
+  "modules": [
+    {
+      "description": "Affix Forge engine (generation / combat / mining / identify / UI)",
+      "language": "javascript",
+      "type": "script",
+      "uuid": "39904caa-6306-4d05-810d-c7e21f7d9b0c",
+      "version": [
+        1,
+        0,
+        0
+      ],
+      "entry": "scripts/main.js"
+    },
+    {
+      "description": "Affix Forge data (items / text)",
+      "type": "data",
+      "uuid": "4e379fef-123b-475d-8875-211fb7da7045",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.7.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.0.0"
+    },
+    {
+      "uuid": "d33c4eeb-e1ca-41e0-9192-0f772f911d68",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ]
+}

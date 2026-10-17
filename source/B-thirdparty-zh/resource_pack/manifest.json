@@ -1,0 +1,40 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "词缀熔炉 B · 第三方兼容版 RP",
+    "description": "《词缀熔炉》随机装备 / 正负词条 —— 第三方兼容版资源包",
+    "uuid": "9831a9b3-936b-4c63-8803-e331fe0dc0a7",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      26,
+      20
+    ]
+  },
+  "modules": [
+    {
+      "description": "Affix Forge 资源（贴图 / 文本）",
+      "type": "resources",
+      "uuid": "4a9138da-d6d9-481c-a40e-8e6ce81e8e00",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "9eef43eb-04ff-4e47-a9bd-33fcdd9e5f21",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ]
+}

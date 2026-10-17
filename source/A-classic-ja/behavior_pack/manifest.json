@@ -1,0 +1,60 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "アフィックスフォージ A · クラシック版 BP",
+    "description": "『アフィックスフォージ』ランダム装備 / プラス・マイナスアフィックス / バニラエンチャント共存 —— クラシック版（サードパーティ非対応）ビヘイビアパック",
+    "uuid": "820af622-4f67-463b-8f7b-b838eb71b555",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      26,
+      20
+    ]
+  },
+  "modules": [
+    {
+      "description": "Affix Forge アフィックスエンジン（生成 / 戦闘 / 採掘 / 鑑定 / UI）",
+      "language": "javascript",
+      "type": "script",
+      "uuid": "b5d5b7f7-2657-4b1c-8429-cfe535c985d9",
+      "version": [
+        1,
+        0,
+        0
+      ],
+      "entry": "scripts/main.js"
+    },
+    {
+      "description": "Affix Forge データ（アイテム / テキスト）",
+      "type": "data",
+      "uuid": "902a15ab-4a2f-43af-8c30-0eba8f9df21b",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.7.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.0.0"
+    },
+    {
+      "uuid": "ce957810-c0df-4dc0-8913-075c77cbe05a",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ]
+}

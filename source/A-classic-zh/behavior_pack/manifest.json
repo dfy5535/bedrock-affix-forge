@@ -1,0 +1,60 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "词缀熔炉 A · 经典版 BP",
+    "description": "《词缀熔炉》随机装备 / 正负词条 / 原版附魔共存 —— 经典版（无第三方兼容）行为包",
+    "uuid": "22099e50-3201-4756-9331-d28a7e8ac601",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      26,
+      20
+    ]
+  },
+  "modules": [
+    {
+      "description": "Affix Forge 词缀引擎（生成 / 战斗 / 挖掘 / 鉴定 / UI）",
+      "language": "javascript",
+      "type": "script",
+      "uuid": "ddc05aab-0a3e-4b8d-83fd-f4e05a3cc84f",
+      "version": [
+        1,
+        0,
+        0
+      ],
+      "entry": "scripts/main.js"
+    },
+    {
+      "description": "Affix Forge 数据（物品 / 文本）",
+      "type": "data",
+      "uuid": "26374330-d234-4f5f-8a87-748b8e86c43e",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.7.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.0.0"
+    },
+    {
+      "uuid": "788193fb-e5b5-4dc1-800d-811f1888c48f",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ]
+}

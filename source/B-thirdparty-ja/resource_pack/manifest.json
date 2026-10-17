@@ -1,0 +1,40 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "アフィックスフォージ B · サードパーティ対応版 RP",
+    "description": "『アフィックスフォージ』ランダム装備 / プラス・マイナスアフィックス —— サードパーティ対応版リソースパック",
+    "uuid": "496f39fd-39e0-481e-869a-7d0fbfeeae83",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      26,
+      20
+    ]
+  },
+  "modules": [
+    {
+      "description": "Affix Forge リソース（テクスチャ / テキスト）",
+      "type": "resources",
+      "uuid": "4cf6e4df-620f-4ab8-8b7f-22ab81da6192",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "36003347-6331-44ee-8855-6683dc8e6ad7",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ]
+}
