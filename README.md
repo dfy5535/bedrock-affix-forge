@@ -71,6 +71,18 @@
 
 ---
 
+## 语言版本（English / 日本語）
+
+每个语言**独立打包**：只带一份语言文件（`en_US.lang` / `ja_JP.lang`），包内**不含任何中文**（连代码注释都翻过），玩法与数值和中文版完全一致。
+
+| 语言 | 文件 |
+|---|---|
+| 🇨🇳 中文 | `dist/AffixForge-A-Classic-ZH-v1.0.0.mcaddon`<br>`dist/AffixForge-B-ThirdParty-ZH-v1.0.0.mcaddon` |
+| 🇬🇧 English | `dist/AffixForge-A-Classic-EN-v1.0.0.mcaddon`<br>`dist/AffixForge-B-ThirdParty-EN-v1.0.0.mcaddon` |
+| 🇯🇵 日本語 | `dist/AffixForge-A-Classic-JA-v1.0.0.mcaddon`<br>`dist/AffixForge-B-ThirdParty-JA-v1.0.0.mcaddon` |
+
+> 同一变体只装**一个语言**即可；三种语言的包 UUID 各不相同，可以并存但不建议同时启用。
+
 ## 安装
 
 1. 下载 `dist/` 里对应语言与变体的 `.mcaddon`
